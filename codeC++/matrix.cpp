@@ -39,6 +39,7 @@ int main(int argc, char** argv){
     double err=norm(diff)/norm(xe);
     cout<<"errore my norm function"<<endl;
     cout<<err<<endl;
+    
     cout<<"errore norm default"<<endl;
     double relative_error = (x-xe).norm()/(xe).norm(); 
     cout << relative_error << endl;
