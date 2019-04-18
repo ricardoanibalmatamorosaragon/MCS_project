@@ -1,0 +1,5 @@
+eseguire Eigen
+g++ -I /home/ricardo/Scrivania/codiceC/Eigen  hello.cpp -o hello
+
+
+https://eigen.tuxfamily.org/dox/group__TopicSparseSystems.html
