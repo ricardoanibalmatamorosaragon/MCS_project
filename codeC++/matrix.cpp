@@ -1,13 +1,10 @@
 #include <Eigen/Sparse>
-#include <algorithm>
 #include <unsupported/Eigen/SparseExtra>
 #include<Eigen/SparseCholesky>
-#include <numeric>
-#include <vector>
 #include <complex>      // std::complex, std::norm
 #include <cmath>
 #include <iostream>   // std::cout
-#include <string>     // std::string, std::stof
+
 typedef Eigen::SparseMatrix<double, Eigen::ColMajor> sparsa;
 using namespace Eigen;
 using namespace std;
@@ -24,7 +21,8 @@ double norm(VectorXd & vector){
 
 int main(int argc, char** argv){
     sparsa A; 
-    loadMarket(A, "shallow_water1.mtx");
+   // loadMarket(A, "shallow_water1.mtx");
+    loadMarket(A, "ex15.mtx");
     int n=A.cols(); 
     Eigen::VectorXd b(n),x(n), xe(n);
 
@@ -33,12 +31,16 @@ int main(int argc, char** argv){
         xe[i]=1;
     }
     // performs a Cholesky factorization of A
-    Eigen::SimplicialCholesky<sparsa> chol(A);
-    b=A*xe;
+    Eigen::SimplicialCholesky<sparsa,Eigen::Upper> chol(A);
+    b=A.selfadjointView<Eigen::Upper>() * xe;
 
     x =chol.solve(b);
-    Eigen::VectorXd diff=x-xe;
+    VectorXd diff=x-xe;
     double err=norm(diff)/norm(xe);
+    cout<<"errore my norm function"<<endl;
     cout<<err<<endl;
+    cout<<"errore norm default"<<endl;
+    double relative_error = (x-xe).norm()/(xe).norm(); 
+    cout << relative_error << endl;
     return 0;
 }
