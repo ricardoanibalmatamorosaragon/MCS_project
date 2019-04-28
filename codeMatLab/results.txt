@@ -1,0 +1,6 @@
+matrix: ex15.mat
+Dimensione matrice : 6867x6867
+Tempo caricamento matrice (secondi): 0.046197
+Tempo di computazione per cholesky (secondi): 0.04576
+Errore relativo: 6.803e-07
+
