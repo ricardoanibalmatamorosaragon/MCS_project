@@ -13,7 +13,7 @@ xe=[1]*len(A)
 
 b=np.dot(A,xe)
 A_inv = np.linalg.inv(A)
-x=np.dot(b,A_inv)
+x=np.dot(A_inv,b)
 
 error=scipy.linalg.norm(x-xe)/scipy.linalg.norm(xe)
 
