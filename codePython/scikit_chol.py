@@ -2,18 +2,38 @@ import sys
 from scipy.io import mmread
 import numpy as np
 from sksparse.cholmod import cholesky
+from datetime import datetime 
+from memory_control import measure_memory_usage 
 
-A = mmread(sys.argv[1]).tocsc()
+#path linux 
+path = "/home/ricardo/Scrivania/codepy/mtx/"
 
-factor = cholesky(A)
+matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
+#matrix_list= ["ex15.mtx"]
 
-xe=[1]*A.shape[0]
+def chol(A):
+    factor = cholesky(A)
+    xe=[1]*A.shape[0]
+    b=A.dot(xe)
+    x =factor(b)
+    error=np.linalg.norm(x-xe)/np.linalg.norm(xe)
+    f.write("Error: "+str(error)+"\n")
 
-b=A.dot(xe)
 
-x =factor(b)
+f = open("/home/ricardo/Scrivania/codepy/results.txt","w+") 
+for matrix in matrix_list:
+    f.write("matrix: "+matrix+"\n")
+    read_in=datetime.now()
+    A = mmread(path+matrix).tocsc()
+    read_end=datetime.now() - read_in
+    f.write("size matrix : "+str(A.shape[0])+"x"+str(A.shape[1])+"\n")
+    f.write("time for matrix read: "+str(read_end)+"\n")
+    start_chol=datetime.now()
+    mem = measure_memory_usage(chol(A),"", memory_denominator=1024.0**2, memory_usage_refresh=0.005)
+    end_chol=datetime.now() - start_chol
+    f.write("time for solve system with chol: "+str(end_chol)+"\n")
+    f.write("memory used to solve system with chol: "+str(mem)+" MB \n")
 
+    f.write("\n")
+f.close()
 
-error=np.linalg.norm(x-xe)/np.linalg.norm(xe)
-
-print(error)
