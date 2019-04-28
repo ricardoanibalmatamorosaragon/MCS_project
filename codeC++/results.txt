@@ -1,0 +1,41 @@
+matrix : ex15.mtx
+size matrix : 6867x6867
+time for matrix read : 0.079073
+time for solve system with chol : 0.183215
+error : 7.26641e-07
+
+matrix : shallow_water1.mtx
+size matrix : 81920x81920
+time for matrix read : 0.304119
+time for solve system with chol : 3.65763
+error : 2.42931e-16
+
+matrix : cfd1.mtx
+size matrix : 70656x70656
+time for matrix read : 1.20434
+time for solve system with chol : 139.257
+error : 2.56555e-12
+
+matrix : cfd2.mtx
+size matrix : 123440x123440
+time for matrix read : 2.03677
+time for solve system with chol : 444.179
+error : 5.58539e-12
+
+matrix : apache2.mtx
+size matrix : 715176x715176
+time for matrix read : 3.46463
+time for solve system with chol : 1723.67
+error : 9.88465e-11
+
+matrix : parabolic_fem.mtx
+size matrix : 525825x525825
+time for matrix read : 3.11783
+time for solve system with chol : 82.2874
+error : 2.45574e-12
+
+matrix : G3_circuit.mtx
+size matrix : 1585478x1585478
+time for matrix read : 6.6229
+time for solve system with chol : 913.997
+error : 6.28471e-12
