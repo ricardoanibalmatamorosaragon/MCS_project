@@ -1,0 +1,18 @@
+Eigen configurazione su windows (visual studio)
+
+1. download Eigen
+
+2. nel progetto mettere "Release" e "x64" IMPORTANTE!!
+
+3. proprietà del progetto  (tasto destro)
+	C/C++
+	Directory di inclusione aggiuntive
+	
+		C:\Users\Histella\Downloads\eigen-eigen-323c052e1731\eigen-eigen-323c052e1731
+	
+
+
+
+
+
+https://docs.microsoft.com/it-it/visualstudio/profiling/memory-usage?view=vs-2019
