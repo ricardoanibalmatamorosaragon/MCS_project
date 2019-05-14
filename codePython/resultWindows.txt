@@ -46,3 +46,10 @@ time for matrix read: 0:00:14.823884
 Error: 2.741966359964529e-12
 time for solve system with chol: 0:01:10.813501
 memory used to solve system with chol: 427.46484375 MB
+
+matrix: StocF-1465.mtx
+size matrix : 1465137x1465137
+time for matrix read: 0:00:20.546604
+Error: 2.6728471434842993e-10
+time for solve system with chol: 0:35:51.044207
+memory used to solve system with chol: 55.84765625 MB (swap)
