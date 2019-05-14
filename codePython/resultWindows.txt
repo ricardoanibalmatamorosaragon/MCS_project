@@ -39,6 +39,7 @@ time for matrix read: 0:00:07.810863
 Error: 1.2186342978855653e-12
 time for solve system with chol: 0:00:16.655270
 memory used to solve system with chol: 310.08203125 MB
+
 matrix: G3_circuit.mtx
 size matrix : 1585478x1585478
 time for matrix read: 0:00:14.823884
