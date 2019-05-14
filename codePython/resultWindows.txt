@@ -1,0 +1,47 @@
+matrix: ex15.mtx
+size matrix : 6867x6867
+time for matrix read: 0:00:00.191742
+Error: 6.373039892025257e-07
+time for solve system with chol: 0:00:00.097236
+memory used to solve system with chol: 48.5234375 MB
+
+matrix: shallow_water1.mtx
+size matrix : 81920x81920
+time for matrix read: 0:00:00.791768
+Error: 2.4191432592763325e-16
+time for solve system with chol: 0:00:02.187984
+memory used to solve system with chol: 56.296875 MB
+
+matrix: cfd1.mtx
+size matrix : 70656x70656
+time for matrix read: 0:00:03.490226
+Error: 2.4936662481657558e-14
+time for solve system with chol: 0:00:10.360036
+memory used to solve system with chol: 112.046875 MB
+
+matrix: cfd2.mtx
+size matrix : 123440x123440
+time for matrix read: 0:00:05.604431
+Error: 3.79734620529076e-13
+time for solve system with chol: 0:00:24.501356
+memory used to solve system with chol: 174.921875 MB
+
+matrix: apache2.mtx
+size matrix : 715176x715176
+time for matrix read: 0:00:09.721675
+Error: 2.6439542358305498e-11
+time for solve system with chol: 0:02:14.180409
+memory used to solve system with chol: 290.75 MB
+
+matrix: parabolic_fem.mtx
+size matrix : 525825x525825
+time for matrix read: 0:00:07.810863
+Error: 1.2186342978855653e-12
+time for solve system with chol: 0:00:16.655270
+memory used to solve system with chol: 310.08203125 MB
+matrix: G3_circuit.mtx
+size matrix : 1585478x1585478
+time for matrix read: 0:00:14.823884
+Error: 2.741966359964529e-12
+time for solve system with chol: 0:01:10.813501
+memory used to solve system with chol: 427.46484375 MB
