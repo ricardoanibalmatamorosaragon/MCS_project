@@ -8,8 +8,8 @@ from memory_control import measure_memory_usage
 #path linux 
 path = "./mtxMatrix/"
 
-#matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
-matrix_list= ["ex15.mtx"]
+matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
+#matrix_list= ["ex15.mtx"]
 
 def memory_usage_psutil():
     # return the memory usage in MB
