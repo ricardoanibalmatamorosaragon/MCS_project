@@ -6,13 +6,10 @@ from datetime import datetime
 from memory_control import measure_memory_usage 
 
 #path linux 
-#path = "/home/ricardo/Scrivania/codepy/mtx/"
+path = "./mtxMatrix/"
 
-#path windows
-path = "./codepy/mtx/"
-
-#matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
-matrix_list= ["ex15.mtx"]
+matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
+#matrix_list= ["ex15.mtx"]
 
 def chol(A):
     factor = cholesky(A)
@@ -23,10 +20,7 @@ def chol(A):
     f.write("Error: "+str(error)+"\n")
 
 #path linux
-#f = open("/home/ricardo/Scrivania/codepy/results.txt","w+") 
-
-#path windows
-f = open("./codepy/results_w.txt","w+") 
+f = open("./codePython/resultsW.txt","w+") 
 
 for matrix in matrix_list:
     f.write("matrix: "+matrix+"\n")
@@ -43,4 +37,3 @@ for matrix in matrix_list:
 
     f.write("\n")
 f.close()
-
