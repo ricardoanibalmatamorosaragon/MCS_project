@@ -42,6 +42,6 @@ for matrix in matrix_list:
     end_chol=datetime.now() - start_chol
     f.write("time for solve system with chol: "+str(end_chol)+"\n")
     f.write("memory used to solve system with chol: "+str(mem)+" MB \n")
-
+    print(memory_usage_psutil())
     f.write("\n")
 f.close()
