@@ -44,3 +44,11 @@ memory read matrix : 168.7 MB
 time for solve system with chol : 18.871
 error : 2.45574e-12
 meory chol : 496 MB
+
+matrix : G3_circuit.mtx
+size matrix : 1585478x1585478
+time for matrix read : 10.983
+memory read matrix : 405.5 MB
+time for solve system with chol : 352.125
+error : 6.28471e-12
+memory chol : 2.1 GB
