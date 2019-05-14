@@ -52,4 +52,11 @@ size matrix : 1465137x1465137
 time for matrix read: 0:00:20.546604
 Error: 2.6728471434842993e-10
 time for solve system with chol: 0:35:51.044207
-memory used to solve system with chol: 55.84765625 MB (swap)
+memory used to solve system with chol: 55.84765625 MB (swap 8.3 GB)
+
+matrix: Flan_1565.mtx
+size matrix : 1564794x1564794
+time for matrix read: 0:01:41.654589
+Error: 7.841499453935652e-11
+time for solve system with chol: 0:34:24.486236
+memory used to solve system with chol: 79.84375 MB (swap 13.1 GB)
