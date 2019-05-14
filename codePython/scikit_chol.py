@@ -11,6 +11,14 @@ path = "./mtxMatrix/"
 matrix_list= ["ex15.mtx", "shallow_water1.mtx", "cfd1.mtx" , "cfd2.mtx" , "apache2.mtx" , "parabolic_fem.mtx" , "G3_circuit.mtx"]
 #matrix_list= ["ex15.mtx"]
 
+def memory_usage_psutil():
+    # return the memory usage in MB
+    import psutil
+    import os
+    process = psutil.Process(os.getpid())
+    mem = process.memory_info().rss / float(1024.0**2)
+    return mem
+
 def chol(A):
     factor = cholesky(A)
     xe=[1]*A.shape[0]
