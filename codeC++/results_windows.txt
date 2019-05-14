@@ -1,46 +1,46 @@
 matrix : ex15.mtx
 size matrix : 6867x6867
-time for matrix read : 1.615
-memory read matrix : 2.9 MB
-time for solve system with chol : 0.025
+time for matrix read : 6.179
+time for solve system with chol : 0.098
 error : 7.26641e-07
-memory chol: 3.8 MB
+memory chol: 2.8 MB
 
 matrix : shallow_water1.mtx
 size matrix : 81920x81920
-time for matrix read : 5.421
-memory read matrix : 6.4 MB
-time for solve system with chol : 1.187
+time for matrix read : 23.275
+memory read matrix : 7.9 MB
+time for solve system with chol : 4.386
 error : 2.42931e-16
-memory: 7.5 MB
+memory chol: 36.7 MB
 
 matrix : cfd1.mtx
 size matrix : 70656x70656
-time for matrix read : 30.367
-memory read matrix : 29.2 MB
-time for solve system with chol : 56.532
+time for matrix read : 98.795
+memory read matrix : 95.5 MB
+time for solve system with chol : 140.662
 error : 2.56555e-12
-memory: 441.2 MB
+memory chol : 441.3 MB
 
 matrix : cfd2.mtx
 size matrix : 123440x123440
-time for matrix read : 56.917
-memory read matrix : 44.2 MB
-time for solve system with chol : 186.439
+time for matrix read : 163.389
+memory read matrix : 44.5 MB
+time for solve system with chol : 470.072
 error : 5.58539e-12
-memory: 891.1 MB
+890.8 MB
 
 matrix : apache2.mtx
 size matrix : 715176x715176
-time for matrix read : 98.726
-memory read matrix : 128.0 MB
-time for solve system with chol : 663.153
+time for matrix read : 327.517
+memory read matrix : 271.6 MB
+time for solve system with chol : 587.532
 error : 9.88465e-11
-memory: 2.6 GB
+memory chol : 2,6 GB
 
 matrix : parabolic_fem.mtx
 size matrix : 525825x525825
-time for matrix read : 77.214
-time for solve system with chol : 25.451
+time for matrix read : 54.021
+memory read matrix : 168.7 MB
+time for solve system with chol : 18.871
 error : 2.45574e-12
-
+meory chol : 496 MB
