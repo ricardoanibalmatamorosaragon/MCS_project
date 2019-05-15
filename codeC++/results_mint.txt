@@ -38,6 +38,7 @@ size matrix : 525825x525825
 time for matrix read : 3.11783
 time for solve system with chol : 82.2874
 error : 2.45574e-12
+memory used : 493.6 MB
 
 matrix : G3_circuit.mtx
 size matrix : 1585478x1585478
