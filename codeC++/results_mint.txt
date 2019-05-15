@@ -45,3 +45,4 @@ size matrix : 1585478x1585478
 time for matrix read : 6.6229
 time for solve system with chol : 913.997
 error : 6.28471e-12
+memory used : 2.092 GB
