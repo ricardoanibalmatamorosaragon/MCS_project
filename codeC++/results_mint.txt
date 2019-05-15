@@ -31,6 +31,7 @@ size matrix : 715176x715176
 time for matrix read : 3.46463
 time for solve system with chol : 1723.67
 error : 9.88465e-11
+memory used : 2.47 GB
 
 matrix : parabolic_fem.mtx
 size matrix : 525825x525825
