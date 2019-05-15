@@ -3,3 +3,8 @@ example path in linux to eigen : /home/ricardo/Scrivania/codiceC/Eigen
 g++ -I [path-Eigen] matrix.cpp -o matrix
 
 ./matrix
+
+memory check in linux 
+g++ -I /home/ricardo/Scrivania/codiceC/Eigen -g codeeigen.cpp -o codeeigen
+valgrind --tool=massif ./codeeigen
+ms_print massif.out.[numero 5 cifre associato al procresso, es: 31708]
