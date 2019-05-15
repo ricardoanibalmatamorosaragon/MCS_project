@@ -3,18 +3,35 @@ Dimensione matrice : 6867x6867
 Tempo caricamento matrice (secondi): 0.022531
 Tempo di computazione per cholesky (secondi): 0.22117
 Errore relativo: 6.803e-07
+memory check : 40.3 MB
 
 matrix: shallow_water1.mat
 Dimensione matrice : 81920x81920
 Tempo caricamento matrice (secondi): 0.022935
 Tempo di computazione per cholesky (secondi): 0.16459
 Errore relativo: 2.3769e-16
+memory check : 46.7 MB
+
+matrix: cfd1.mat
+Dimensione matrice : 70656x70656
+Tempo caricamento matrice (secondi): 0.10654
+Tempo di computazione per cholesky (secondi): 0.92153
+Errore relativo: 9.451e-14
+memory check : 98.36 MB
+
+matrix: cfd2.mat
+Dimensione matrice : 123440x123440
+Tempo caricamento matrice (secondi): 0.16887
+Tempo di computazione per cholesky (secondi): 2.0877
+Errore relativo: 4.1298e-13
+memory check : 897.47 MB 
 
 matrix: apache2.mat
 Dimensione matrice : 715176x715176
 Tempo caricamento matrice (secondi): 0.15251
 Tempo di computazione per cholesky (secondi): 6.2275
 Errore relativo: 4.3741e-11
+memory check : 1.6 GB
 
 matrix: parabolic_fem.mat
 Dimensione matrice : 525825x525825
@@ -28,14 +45,3 @@ Tempo caricamento matrice (secondi): 0.25474
 Tempo di computazione per cholesky (secondi): 8.0333
 Errore relativo: 3.5231e-12
 
-matrix: cfd1.mat
-Dimensione matrice : 70656x70656
-Tempo caricamento matrice (secondi): 0.10654
-Tempo di computazione per cholesky (secondi): 0.92153
-Errore relativo: 9.451e-14
-
-matrix: cfd2.mat
-Dimensione matrice : 123440x123440
-Tempo caricamento matrice (secondi): 0.16887
-Tempo di computazione per cholesky (secondi): 2.0877
-Errore relativo: 4.1298e-13
