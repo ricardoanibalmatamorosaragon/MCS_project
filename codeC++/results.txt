@@ -1,8 +1,9 @@
 matrix : ex15.mtx
 size matrix : 6867x6867
-time for matrix read : 0.079073
-time for solve system with chol : 0.183215
+time for matrix read : 0.084424
+time for solve system with chol : 0.213892
 error : 7.26641e-07
+memory used : 5.115 MB
 
 matrix : shallow_water1.mtx
 size matrix : 81920x81920
