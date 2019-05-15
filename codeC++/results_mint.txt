@@ -17,7 +17,7 @@ size matrix : 70656x70656
 time for matrix read : 1.20434
 time for solve system with chol : 139.257
 error : 2.56555e-12
-memory used : 
+memory used : 439.5 MB
 
 matrix : cfd2.mtx
 size matrix : 123440x123440
