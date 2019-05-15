@@ -24,6 +24,7 @@ size matrix : 123440x123440
 time for matrix read : 2.03677
 time for solve system with chol : 444.179
 error : 5.58539e-12
+memory used : 888.2 MB
 
 matrix : apache2.mtx
 size matrix : 715176x715176
