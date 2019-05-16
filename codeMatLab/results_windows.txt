@@ -54,4 +54,11 @@ Tempo di computazione per cholesky (secondi): 1148.0887
 Errore relativo: 1.0591e-10
 Memory used:
 
+matrix: Flan_1565.mat
+Dimensione matrice : 1564794x1564794
+Tempo caricamento matrice (secondi): 6.9462
+Tempo di computazione per cholesky (secondi): 1945.2281
+Errore relativo: 1.015e-12
+Memory used:
+
 
