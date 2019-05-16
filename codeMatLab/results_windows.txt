@@ -1,0 +1,49 @@
+matrix: ex15.mat
+Dimensione matrice : 6867x6867
+Tempo caricamento matrice (secondi): 0.0097047
+Tempo di computazione per cholesky (secondi): 0.014816
+Errore relativo: 6.803e-07
+Memory used: 
+
+matrix: shallow_water1.mat
+Dimensione matrice : 81920x81920
+Tempo caricamento matrice (secondi): 0.075695
+Tempo di computazione per cholesky (secondi): 0.22645
+Errore relativo: 2.3769e-16
+Memory used: 
+
+matrix: cfd1.mat
+Dimensione matrice : 70656x70656
+Tempo caricamento matrice (secondi): 0.15868
+Tempo di computazione per cholesky (secondi): 1.1691
+Errore relativo: 9.451e-14
+Memory used: 
+
+matrix: cfd2.mat
+Dimensione matrice : 123440x123440
+Tempo caricamento matrice (secondi): 0.2952
+Tempo di computazione per cholesky (secondi): 2.4894
+Errore relativo: 4.1298e-13
+Memory used: 
+
+matrix: apache2.mat
+Dimensione matrice : 715176x715176
+Tempo caricamento matrice (secondi): 0.28704
+Tempo di computazione per cholesky (secondi): 6.9273
+Errore relativo: 4.3741e-11
+Memory used: 
+
+matrix: parabolic_fem.mat
+Dimensione matrice : 525825x525825
+Tempo caricamento matrice (secondi): 0.34233
+Tempo di computazione per cholesky (secondi): 1.8248
+Errore relativo: 1.0859e-12
+Memory used:
+
+matrix: G3_circuit.mat
+Dimensione matrice : 1585478x1585478
+Tempo caricamento matrice (secondi): 0.4473
+Tempo di computazione per cholesky (secondi): 9.7311
+Errore relativo: 3.5231e-12
+Memory used: 
+
