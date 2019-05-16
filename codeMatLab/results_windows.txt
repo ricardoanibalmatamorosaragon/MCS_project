@@ -47,3 +47,11 @@ Tempo di computazione per cholesky (secondi): 9.7311
 Errore relativo: 3.5231e-12
 Memory used: 
 
+matrix: StocF-1465.mat
+Dimensione matrice : 1465137x1465137
+Tempo caricamento matrice (secondi): 2.2109
+Tempo di computazione per cholesky (secondi): 1148.0887
+Errore relativo: 1.0591e-10
+Memory used:
+
+
