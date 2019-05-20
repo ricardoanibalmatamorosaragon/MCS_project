@@ -3,62 +3,62 @@ Dimensione matrice : 6867x6867
 Tempo caricamento matrice (secondi): 0.0097047
 Tempo di computazione per cholesky (secondi): 0.014816
 Errore relativo: 6.803e-07
-Memory used: 
+Memory used: 31.6 MB
 
 matrix: shallow_water1.mat
 Dimensione matrice : 81920x81920
 Tempo caricamento matrice (secondi): 0.075695
 Tempo di computazione per cholesky (secondi): 0.22645
 Errore relativo: 2.3769e-16
-Memory used: 
+Memory used: 62.7 MB
 
 matrix: cfd1.mat
 Dimensione matrice : 70656x70656
 Tempo caricamento matrice (secondi): 0.15868
 Tempo di computazione per cholesky (secondi): 1.1691
 Errore relativo: 9.451e-14
-Memory used: 
+Memory used: 400.2 MB
 
 matrix: cfd2.mat
 Dimensione matrice : 123440x123440
 Tempo caricamento matrice (secondi): 0.2952
 Tempo di computazione per cholesky (secondi): 2.4894
 Errore relativo: 4.1298e-13
-Memory used: 
+Memory used: 745.8 MB
 
 matrix: apache2.mat
 Dimensione matrice : 715176x715176
 Tempo caricamento matrice (secondi): 0.28704
 Tempo di computazione per cholesky (secondi): 6.9273
 Errore relativo: 4.3741e-11
-Memory used: 
+Memory used: 1966.9 MB
 
 matrix: parabolic_fem.mat
 Dimensione matrice : 525825x525825
 Tempo caricamento matrice (secondi): 0.34233
 Tempo di computazione per cholesky (secondi): 1.8248
 Errore relativo: 1.0859e-12
-Memory used:
+Memory used: 588 MB
 
 matrix: G3_circuit.mat
 Dimensione matrice : 1585478x1585478
 Tempo caricamento matrice (secondi): 0.4473
 Tempo di computazione per cholesky (secondi): 9.7311
 Errore relativo: 3.5231e-12
-Memory used: 
+Memory used: 2403.8 MB
 
 matrix: StocF-1465.mat
 Dimensione matrice : 1465137x1465137
 Tempo caricamento matrice (secondi): 2.2109
 Tempo di computazione per cholesky (secondi): 1148.0887
 Errore relativo: 1.0591e-10
-Memory used:
+Memory used: 11622.51 MB
 
 matrix: Flan_1565.mat
 Dimensione matrice : 1564794x1564794
 Tempo caricamento matrice (secondi): 6.9462
 Tempo di computazione per cholesky (secondi): 1945.2281
 Errore relativo: 1.015e-12
-Memory used:
+Memory used: 21188.92 MB
 
 
