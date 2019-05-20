@@ -38,6 +38,7 @@ Dimensione matrice : 525825x525825
 Tempo caricamento matrice (secondi): 0.206
 Tempo di computazione per cholesky (secondi): 1.654
 Errore relativo: 1.0859e-12
+memory check : 190,37 MB
 
 matrix: G3_circuit.mat
 Dimensione matrice : 1585478x1585478
