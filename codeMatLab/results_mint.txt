@@ -31,18 +31,18 @@ Dimensione matrice : 715176x715176
 Tempo caricamento matrice (secondi): 0.15251
 Tempo di computazione per cholesky (secondi): 6.2275
 Errore relativo: 4.3741e-11
-memory check : 1.6 GB
+memory check : 1580 GB
 
 matrix: parabolic_fem.mat
 Dimensione matrice : 525825x525825
 Tempo caricamento matrice (secondi): 0.206
 Tempo di computazione per cholesky (secondi): 1.654
 Errore relativo: 1.0859e-12
-memory check : 190,37 MB
+memory check : 190.37 MB
 
 matrix: G3_circuit.mat
 Dimensione matrice : 1585478x1585478
 Tempo caricamento matrice (secondi): 0.25474
 Tempo di computazione per cholesky (secondi): 8.0333
 Errore relativo: 3.5231e-12
-
+memory check : 2616.26 MB
