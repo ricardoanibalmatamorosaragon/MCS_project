@@ -17,7 +17,7 @@ Dimensione matrice : 70656x70656
 Tempo caricamento matrice (secondi): 0.15868
 Tempo di computazione per cholesky (secondi): 1.1691
 Errore relativo: 9.451e-14
-Memory used: 400.2 MB
+Memory used: 114.9 MB
 
 matrix: cfd2.mat
 Dimensione matrice : 123440x123440
